@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <title>temperature converter.PHP</title>
-		  <h2> Halima Ahmed - TASK 2 Temperature converter.PHP </h2>
+		  <h2> Halima Ahmed - Temperature converter.php </h2>
 	</head>
 	<body>		
 					
