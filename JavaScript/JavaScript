@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab5 Task 1 - Submission by Halima Ahmed</title>
+	<meta charset="utf-8">
+	
+<!-- Insert your exercice 1 javascript between the script tags below prints out "Halima ahmed is a CST8285 student"-->
+	<script>
+var answer = prompt("Halima Ahmed");
+alert("Welcome to JavaScript, " +answer);
+document.write("<h3>" +answer+ "is a CST8285 student.</h3>");	
+	</script>
+	
+<!-- Insert your exercice 2 javascript between the script tags below-->
+	
+<script>
+
+var answer = prompt("Please enter a number");
+alert(parseInt(answer));	
+</script>
+	
+<!-- Insert your exercice 3 javascript between the script tags below-->
+
+<script>
+
+var answer = prompt("Please ennter a number");
+answer(parseFloat(answer));		
+
+	</script>
+<!-- Insert your exercice 4 javascript between the script tags below-->
+
+	<script>
+	var answer = prompt("Please enter a number");
+	
+if(isNaN(parseFloat(answer))){
+alert("you did not enter a number");
+}else{
+alert(answer + "is a number");
+}		
+	</script>
+
+<!-- Insert your exercice 5 javascript between the script tags below-->
+
+	<script>	
+var answer = prompt("Please enter a number");
+
+if(isNaN(parseFloat(answer))){
+do{
+answer = prompt ("You did not enter a number. Please enter a number. ");
+}while(isNaN(parseFloat(answer)));
+}	
+alert(answer + "is a number");
+	
+</script>
+
+<!-- Insert your exercice 6 javascript between the script tags below-->
+	
+<script>
+	var answer1= parseFloat(prompt("Please enter a number"));
+	
+if(isNaN(answer1)){
+do{
+answer1= paraFloat(prompt("You did not enter a number. Please enter a number."));
+}while(isNaN(answer1));
+}
+
+var answer2= parseFloat(prompt("Please enter a number"));
+if(isNaN(answer2)){
+do{
+answer2= paraFloat(prompt("You did not enter a number. Please enter a number."));
+}while(isNaN(answer2));
+}		
+
+if(answer1 = answer2){
+alert("the number are equal.");
+}
+if(answer1>answer2){
+alert(answer1 + "is greater than" + answer2);
+}else{
+alert(answer1 + "is less than or equal to " + answer2);
+}
+	</script>
+<!-- Insert your exercice 7 javascript between the script tags below-->
+
+<script>
+	for(var n=0; n<10;n++){
+if(n<9){
+document.write(n + ", ");
+}else{
+document.write(n);
+}
+}		
+	</script>
+
+<link rel="stylesheet" type="text/css" href="https://brightspace.algonquincollege.com/shared/css/canvas-bs.css"></head>
+
+<body>
+<h3>Lab 5 Task 1 Submission by Halima Ahmed</h3>
+ 
+</body>
+</html>

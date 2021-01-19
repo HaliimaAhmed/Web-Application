@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Lab 4 by Halima Ahmed</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css" />
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1 class="center">Registration</h1>
+				<p class="center">Please enter the following information. Fields marked with an asterisk (<span class="required">*</span>) are required.</p>
+			</header>
+			
+			<div id="content">
+			
+			<form method="post" action=javascript:void(0);>
+			
+			<fieldset>
+				
+				<legend>Personal Information</legend>
+				
+		
+				<tr>
+				<!-- * First Name | textbox -->
+				<br/><td><span class="required">*</span>First Name:</td>
+				<td><input type="text" name="firstName" id="firstName"></td>
+				</tr>
+				
+				
+				<tr>
+				<!-- * Last Name | textbox -->
+				<br/><td><span class="required">*</span>Last Name:</td>
+				<td><input type="text" name="LastName" id="LastName"></td>
+				
+				</tr>
+				
+				<tr>
+				<!-- * Address | textbox, with a size of 40 characters -->
+				<br/><td><span class="required">*</span>Address:</td>
+				<td><input type="text" name="Address" id="Address" size="40"></td>
+				
+				</tr>
+				
+				<tr>
+				<!-- * City | textbox -->
+				<br/><td><span class="required">*</span>City:</td>
+				<td><input type="text" name="City" id="City"></td>
+				
+				<!-- Select a province -->
+				</tr>
+				<tr>
+							<br/><td>Provinces:</td>
+							
+							<td >
+							<select>
+
+								<option value="Select The Province">Select a province</option>
+								<option value="BC">British Columbia</option>
+								<option value="AB">Alberta</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="MB">Manitoba</option>
+								<option value="ON">Ontario</option>
+								<option value="QC">Quebec</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="NF">Newfoundland</option>
+								<option value="YK">Yukon</option>
+								<option value="NWT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+
+							</select>
+
+						</td>
+					</tr>
+				
+				<!-- * Postal Code | textbox, maximum length of 6 characters -->
+				<tr>
+
+				<br/><td ><span class="required">*</span>Postal Code:</td>
+				<td ><input type="text" maxlength="6" ></td>
+				
+				</tr>
+				<!-- * Email address | textbox -->
+				<tr>
+			
+				<br/><td><span class="required">*</span>Email address:</td>
+				<td><input type="text"  ></td>
+				
+				</tr>
+				<!-- * Home phone | textbox -->
+				<tr>
+				
+				<br/><td><span class="required">*</span>Home phone:</td>
+				<td><input type="text"  ></td>
+				
+				</tr>
+				<!-- Work phone | textbox -->
+				<tr>
+				
+				<br/><td>Work phone:</td>
+				<td><input type="text"  ></td>
+				
+				</tr>
+					
+			</fieldset>
+			<fieldset>
+				<legend>Payment Information</legend>
+					<!-- Credit Card Type | radio buttons
+					 
+					 There should be three buttons: one for VISA, one for MasterCard, and one for American Express.
+					 All three buttons can go in one <td> element.
+					 
+					 NOTE: each radio button should have the same name, but a different id. For example, you might use
+					 the name "creditCard" for each, but "creditCardVisa", "creditCardAmex" and "creditCardMasterCard"
+					 as the id's. 
+					 
+					 Also, please review the lab instructions regarding the placement of credit card icon images beside
+					 each radio button. -->
+				
+				<tr>
+						<br/><td>Credit Card Type:</td>
+						
+						<td>
+							<img src="images\visa.png"/><input type="radio" id="creditCardVisa" value="checkbox" >
+							<img src="images/mastercard.png"/><input type="radio" id="creditCardMasterCard" value="checkbox">
+							<img src="images/amex.png"/><input type="radio" id="creditCardAmex" value="checkbox">
+
+						</td>
+						
+						</tr>
+
+						<tr>
+						<!-- Credit Card Number | textbox -->
+							<br/><td>Credit Card Number:</td>
+							<td><input type="text"  ></td>
+						</tr>
+						
+						<tr>
+						<!-- Expiry Date | textbox, maximum 5 characters (MM/YY) -->
+						<br/><td>Expiry Date (MM/YY):</td>
+						
+							<td><input type="text" size="1" maxlength="5" > / <input type="text" size="1" maxlength="5" ></td>
+						</tr>
+						
+			
+			</fieldset>
+			
+			<fieldset>
+				<legend>Agree and Submit</legend>
+				<table>
+				<tr>
+				<!-- * Agree to Terms and Conditions? | checkbox, value of 'yes' -->
+				<td><span class="required">*</span> Check if you agree with our<a href=""> Terms and Conditions</a> </td>
+				<td><input type="checkbox"  value="yes"> </td>
+				
+				</tr>
+					
+					<!-- No field name. Place a submit button in one column, and reset button in the other. -->
+					<tr>
+						<td>
+					<input type="submit" name="submit" value="Submit Registration">
+					<input type="reset" name="reset" value="Reset Form">
+						</td>
+					
+					</tr>
+					
+					</table>
+			</fieldset>
+			
+			</div><!-- End Content -->
+			<footer>	
+				<p class="center">&copy;2019 CST8285. All rights reserved.</p>
+			</footer>
+		</div><!-- End Wrapper -->
+		
+		<p>
+      <a href="https://validator.w3.org/check?uri=referer"><img
+          src="http://www.w3.org/Icons/valid-xhtml10"
+          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    </p>
+	<p>
+      <a href="https://validator.w3.org/check?uri=referer"><img
+          src="https://www.w3.org/Icons/valid-css" 
+          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    </p>
+	
+	
+	</body>
+</html>

@@ -1,0 +1,115 @@
+/* CSS Document */
+
+/*Halima Ahmed lab 4*/
+
+/* 
+This code will reset the default margins, padding, and border
+settings to assist with cross browser compatibility.
+   */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* END CSS Reset*/
+
+/*
+ 
+1. Create a rule for an id called 'wrapper'. Give it a background color of #FFBF40.
+Set the top margin to 20px, and the top padding to 10px. Set the border to be
+solid black, with a width of 1px. Set the width to 900px, and the left and right
+margins to 'auto'. */
+
+#wrapper {
+	background-color: #FFBF40;
+	margin-top:20px;
+	padding-top:10px;
+	border:1px solid black;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+/* 
+2. Create a rule for all fieldset elements. Set the top margin to 5px, and the background
+color to #FFD073.*/
+
+fieldset {
+	
+	margin-top:5px;
+	background-color:#FFD073;
+	}
+/*
+3. Create a rule for all the legend elements descended from fieldset elements.
+Set the text color to #412C84. Set the background color to #FFD073. Set the border to 
+a 1px wide solid border with a color of #200772. Set the padding to 2px, and the font 
+weight to bold.*/
+
+fieldset legend {
+	color:#412C84;
+	background-color:#FFD073;
+	border:1px solid #200772;
+	padding:2px;
+	font-weight:bold;
+	}
+/*
+4. Create a rule for all tables. Set the margin to 5px, and the padding to 5px.*/
+
+tables {
+	margin:5px;
+	padding:5px;
+	}
+/*
+5. Create a rule for all td elements. Set the padding to 3px.*/
+td{
+	padding:3px;
+	}
+/*
+6. Create a rule for a class called 'center'. Set the text alignment to center.*/
+
+.center {
+text-align:center;
+}
+
+/*
+7. Create a rule for a class called 'required'. Set the text color to #FF0000;*/
+
+.required {
+	color:#FF0000;
+}
+/*
+8. Create a rule for all <p> elements descendent of an element with an id 'content'. 
+Set the left padding to 10px*/
+
+.content p {
+padding-left: 10px;
+}
+
+/*
+9. Create a rule for all <footer> elements. Set the margin to 10px.*/
+footer {
+	margin: 10px;
+}
+/*
+10. Create a rule for all <p> elements that are descendent of <footer> elements. 
+Set the font size to 10pt, and the text alignment to center.*/
+
+footer p {
+font-size: 10pt;
+text-align: center;
+}
+
