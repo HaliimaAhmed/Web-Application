@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lab5 Task 1 - Submission by Halima Ahmed</title>
+    <title>Halima Ahmed</title>
 	<meta charset="utf-8">
 	
-<!-- Insert your exercice 1 javascript between the script tags below prints out "Halima ahmed is a CST8285 student"-->
 	<script>
 var answer = prompt("Halima Ahmed");
 alert("Welcome to JavaScript, " +answer);
-document.write("<h3>" +answer+ "is a CST8285 student.</h3>");	
+document.write("<h3>" +answer+ " is a programmer.</h3>");	
 	</script>
 	
 <!-- Insert your exercice 2 javascript between the script tags below-->
@@ -95,7 +94,7 @@ document.write(n);
 <link rel="stylesheet" type="text/css" href="https://brightspace.algonquincollege.com/shared/css/canvas-bs.css"></head>
 
 <body>
-<h3>Lab 5 Task 1 Submission by Halima Ahmed</h3>
+<h3>Halima Ahmed</h3>
  
 </body>
 </html>
