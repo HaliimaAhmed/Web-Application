@@ -5,7 +5,7 @@
     <h2> Halima Ahmed - Hello World GET method </h2>
    </head>
    <body>
-   <form method="get" action="Week7Lab_Task1_HalimaAhmed.php">
+   <form method="get" action="Introduction.php">
     <br><br>
    Enter First Name: <input type="text" name="firstName" >
     <br><br>
